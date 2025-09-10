@@ -1,11 +1,14 @@
+import { useParams } from 'react-router-dom';
+
 function Designs() {
+  const { category } = useParams();
+
   return (
-    <div>
-      <h2>Our Designs</h2>
-      <p>Here you will find various gold and silver jewelry designs.</p>
+    <div className="container py-5">
+      <h2>{category.charAt(0).toUpperCase() + category.slice(1)} Collection</h2>
+      <p>Here are the beautiful {category} designs.</p>
     </div>
   );
 }
 
 export default Designs;
-

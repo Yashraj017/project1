@@ -1,38 +1,145 @@
-.App {
-  text-align: center;
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdf8e7; /* Light gold background */
+    color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Navbar */
+.navbar {
+    background-color: #d4af37 !important; /* Gold Navbar */
+    padding: 10px 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-brand img {
+    height: 80px;
+    transition: transform 0.3s ease-in-out;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar-brand img:hover {
+    transform: scale(1.05);
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-nav .nav-link:hover {
+    color: #b39426 !important; /* Darker gold */
+    transform: translateY(-2px);
+}
+
+/* Hero Section */
+.hero {
+    background: url('/projects/jewelry-shop/frontend/public/images/moroccan-flower.png') no-repeat center center/cover;
+    text-align: center;
+    padding: 80px 20px;
+    color: rgb(8, 8, 8);
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.hero .btn {
+    background-color: #b39426;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.hero .btn:hover {
+    background-color: #9f7d1f;
+    transform: scale(1.05);
+}
+}
+/* Collection Section */
+.collections {
+    background-color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.collections h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.collections img {
+    width: 80%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.collections img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+    margin-bottom: 15px;
+}
+
+/* About Section */
+#about {
+    background: #f8e6b2; /* Light gold background */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#about p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Social Media Section */
+.social-icons img {
+    width: 50px;
+    margin: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+    background-color: #d4af37;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero h2 {
+        font-size: 1.8rem;
+    }
+
+    .collections img {
+        width: 90%;
+    }
 }
