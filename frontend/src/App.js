@@ -1,8 +1,17 @@
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import Designs from './components/Designs';
+import Contact from './components/Contact';
+import Login from './components/Login';
+
 function App() {
   return (
     <div className="App">
-      <h1>Jewelry Shop</h1>
-      <p>Welcome to our store!</p>
+      <Navbar />
+      <Home />
+      <Designs />
+      <Contact />
+      <Login />
     </div>
   );
 }
