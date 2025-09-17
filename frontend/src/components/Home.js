@@ -1,8 +1,9 @@
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Collections from "./Collections";
-import About from "./About";
+// import About from "./About";
 import Footer from "./Footer";
+import SocialMedia from "./SocialMedia";
 
 function Home() {
   return (
@@ -10,7 +11,8 @@ function Home() {
       <Navbar />
       <Hero />
       <Collections />
-      <About />
+      {/* <About /> */}
+      <SocialMedia />
       <Footer />
     </>
   );
