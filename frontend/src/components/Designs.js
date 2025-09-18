@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import SocialMedia from "./SocialMedia";
+// import SocialMedia from "./SocialMedia";
 
 function Designs() {
   const [selectedType, setSelectedType] = useState("All");
@@ -88,7 +88,7 @@ function Designs() {
           )}
         </div>
       </div>
-<SocialMedia />
+{/* <SocialMedia /> */}
  <Footer />
     </>
   );

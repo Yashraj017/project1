@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+// import SocialMedia from "./SocialMedia";
 
 function About() {
   return (
@@ -62,7 +63,7 @@ function About() {
           </div>
         </div>
       </div>
-
+ {/* <SocialMedia /> */}
       <Footer />
     </>
   );

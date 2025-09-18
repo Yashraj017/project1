@@ -3,7 +3,7 @@ import Hero from "./Hero";
 import Collections from "./Collections";
 // import About from "./About";
 import Footer from "./Footer";
-import SocialMedia from "./SocialMedia";
+// import SocialMedia from "./SocialMedia";
 
 function Home() {
   return (
@@ -12,7 +12,7 @@ function Home() {
       <Hero />
       <Collections />
       {/* <About /> */}
-      <SocialMedia />
+    {/* <SocialMedia />   */}
       <Footer />
     </>
   );

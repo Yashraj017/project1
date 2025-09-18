@@ -23,7 +23,7 @@ function Navbar() {
               <Link className="nav-link" to="/contact">Contact</Link>
             </li>
             <li className="nav-item ms-3">
-              <Link className="nav-link" to="/about">About</Link>
+              <Link className="nav-link" to="/about">About Us</Link>
             </li>
           </ul>
           <div className="d-flex">

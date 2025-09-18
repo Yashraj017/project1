@@ -1,11 +1,15 @@
+
+
 function Hero() {
   return (
-    <section className="hero text-center py-5 bg-light border">
-      <h1>Welcome to VAIBHAVI JEWELLERS</h1>
-      <h2>Timeless Elegance, Crafted for You</h2>
-      <p>Discover exquisite jewellery pieces designed to last a lifetime.</p>
-       <p>Select from wide range designs of following.</p>
-    </section>
+    <>
+      <div className="hero-section text-center d-flex flex-column justify-content-center align-items-center">
+        <h1 className="hero-title">VAIBHAVI JEWELLERS</h1>
+        <h2 className="hero-subtitle">Timeless Elegance, Crafted for You</h2>
+        <p className="hero-text">Discover exquisite jewellery pieces designed to last a lifetime.</p>
+      </div>
+ 
+    </>
   );
 }
 

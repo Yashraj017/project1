@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import SocialMedia from './SocialMedia';
+// import SocialMedia from './SocialMedia';
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -109,7 +109,7 @@ function Contact() {
       </section>
 
     </div>
-    <SocialMedia />
+    {/* <SocialMedia /> */}
     <Footer />
     </>
   );

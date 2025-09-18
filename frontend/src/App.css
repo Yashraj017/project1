@@ -33,39 +33,34 @@ body {
 }
 
 /* Hero Section */
-.hero {
-    background: url('/projects/jewelry-shop/frontend/public/images/moroccan-flower.png') no-repeat center center/cover;
-    text-align: center;
-    padding: 80px 20px;
-    color: rgb(8, 8, 8);
-
-.hero h1 {
-    font-size: 3rem;
-    font-weight: bold;
+..hero-section {
+  background: linear-gradient(to right, #fff8e1, #fdf3c2);
+  padding: 80px 20px;
 }
 
-.hero h2 {
-    font-size: 2rem;
-    font-weight: bold;
+.hero-title {
+  font-family: 'Cinzel', serif;  /* Royal font */
+  font-weight: 700;
+  font-size: 3rem;
+  color: #b39426; /* Rich gold color */
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
 }
 
-.hero p {
-    font-size: 1.2rem;
+.hero-subtitle {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.8rem;
+  color: #4d3620;
+  margin-bottom: 10px;
 }
 
-.hero .btn {
-    background-color: #b39426;
-    border: none;
-    padding: 12px 25px;
-    font-size: 1.2rem;
-    transition: transform 0.2s ease-in-out;
+.hero-text {
+  font-size: 1.1rem;
+  color: #333;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-.hero .btn:hover {
-    background-color: #9f7d1f;
-    transform: scale(1.05);
-}
-}
 /* Collection Section */
 .collections {
     background-color: white;
